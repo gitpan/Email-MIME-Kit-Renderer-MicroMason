@@ -1,0 +1,10 @@
+MANIFEST.bak
+Build
+META.yml
+Makefile.PL
+Makefile
+_build/
+blib/
+Changes
+Debian_CPANTS.txt
+Email-MIME-Kit-Renderer-MicroMason-*
