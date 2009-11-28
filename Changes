@@ -1,33 +1,15 @@
 2009-06-11  Mark Grimes <mgrimes@cpan.org>
+	Perform a chdir so any included components can be relative to mkit dir
+	- Updated documentation to reflect change 	
+	- Added requirements for Carp/Cwd (both in core I believe) 	
+	- Updated tests
 
-	* .gitignore, README, lib/Email/MIME/Kit/Renderer/MicroMason.pm: 
-	Update resion number and README file
-
-2009-06-11  Mark Grimes <mgrimes@cpan.org>
-
-	* Build.PL, lib/Email/MIME/Kit/Renderer/MicroMason.pm,
-	t/kits/include.mkit/body.txt, t/perlcriticrc: Perform a chdir so any
-	included components can be relative to mkit dir 	- Updated documentation to reflect change 	- Added requirements for Carp/Cwd (both in core I believe) 	- Updated tests
+1.02 - Sat Nov 28 09:37:33 2009
+	Added support for the -Filters mixin
 
 2009-06-11  Mark Grimes <mgrimes@cpan.org>
-
-	* lib/Email/MIME/Kit/Renderer/MicroMason.pm: Updated the SEE ALSO
-	section of the pod and added another comment
+	Updated the SEE ALSO section of the pod and added another comment
 
 2009-06-11  Mark Grimes <mgrimes@cpan.org>
-
-	* Build.PL: Added resources section for META.yaml
-
-2009-06-11  Mark Grimes <mgrimes@cpan.org>
-
-	* .gitignore, Build.PL, MANIFEST, README, samples/kits,
-	samples/kits/include.mkit/body.txt,
-	samples/kits/include.mkit/includes/footer.msn,
-	samples/kits/include.mkit/includes/header.msn,
-	samples/kits/include.mkit/manifest.json,
-	samples/kits/test.mkit/manifest.json: Updated Build files
-
-2009-06-11  Mark Grimes <mgrimes@cpan.org>
-
-	* Initial import
+	Added resources section for META.yaml
 

@@ -1,26 +1,28 @@
 ---
-name: Email-MIME-Kit-Renderer-MicroMason
-version: 1.001
+abstract: 'Render parts of your mail with Text::MicroMason'
 author: []
-abstract: Render parts of your mail with Text::MicroMason
+build_requires:
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.35
+generated_by: 'Module::Build version 0.3508'
 license: perl
-resources:
-  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Email-Mime-Kit-Renderer-MicroMason
-  license: http://dev.perl.org/licenses/
-  repository: http://github.com/mvgrimes/email-mime-kit-renderer-micromason/tree/master
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Email-MIME-Kit-Renderer-MicroMason
+provides:
+  Email::MIME::Kit::Renderer::MicroMason:
+    file: lib/Email/MIME/Kit/Renderer/MicroMason.pm
+    version: 1.002
 requires:
   Carp: 0
   Cwd: 0
   Email::MIME::Kit: 2
   Text::MicroMason: 2
   perl: 5.008
-build_requires:
-  Test::More: 0
-provides:
-  Email::MIME::Kit::Renderer::MicroMason:
-    file: lib/Email/MIME/Kit/Renderer/MicroMason.pm
-    version: 1.001
-generated_by: Module::Build version 0.32
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+resources:
+  bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Email-Mime-Kit-Renderer-MicroMason
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/mvgrimes/email-mime-kit-renderer-micromason/tree/master
+version: 1.002
