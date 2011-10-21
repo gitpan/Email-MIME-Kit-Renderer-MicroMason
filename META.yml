@@ -1,11 +1,13 @@
 ---
 abstract: 'Render parts of your mail with Text::MicroMason'
-author: []
+author:
+  - 'Mark Grimes, E<lt>mgrimes@cpan.orgE<gt>'
 build_requires:
   Test::More: 0
 configure_requires:
-  Module::Build: 0.35
-generated_by: 'Module::Build version 0.3508'
+  Module::Build: 0.36
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112621'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -14,7 +16,7 @@ name: Email-MIME-Kit-Renderer-MicroMason
 provides:
   Email::MIME::Kit::Renderer::MicroMason:
     file: lib/Email/MIME/Kit/Renderer/MicroMason.pm
-    version: 1.002
+    version: 1.20
 requires:
   Carp: 0
   Cwd: 0
@@ -25,4 +27,4 @@ resources:
   bugtracker: http://rt.cpan.org/NoAuth/Bugs.html?Dist=Email-Mime-Kit-Renderer-MicroMason
   license: http://dev.perl.org/licenses/
   repository: http://github.com/mvgrimes/email-mime-kit-renderer-micromason/tree/master
-version: 1.002
+version: 1.20
