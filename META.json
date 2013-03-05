@@ -4,7 +4,7 @@
       "Mark Grimes, E<lt>mgrimes@cpan.orgE<gt>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.112621",
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -16,7 +16,7 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Test::More" : 0
+            "Test::More" : "0"
          }
       },
       "configure" : {
@@ -26,8 +26,7 @@
       },
       "runtime" : {
          "requires" : {
-            "Carp" : 0,
-            "Cwd" : 0,
+            "Carp" : "0",
             "Email::MIME::Kit" : "2",
             "Text::MicroMason" : "2",
             "perl" : "5.008"
@@ -37,7 +36,11 @@
    "provides" : {
       "Email::MIME::Kit::Renderer::MicroMason" : {
          "file" : "lib/Email/MIME/Kit/Renderer/MicroMason.pm",
-         "version" : "1.20"
+         "version" : "1.21"
+      },
+      "Text::MicroMason::MKit" : {
+         "file" : "lib/Email/MIME/Kit/Renderer/MicroMason.pm",
+         "version" : 0
       }
    },
    "release_status" : "stable",
@@ -52,5 +55,5 @@
          "url" : "http://github.com/mvgrimes/email-mime-kit-renderer-micromason/tree/master"
       }
    },
-   "version" : "1.20"
+   "version" : "1.21"
 }
